@@ -1,9 +1,8 @@
 import { ethers } from "ethers";
 
-// Adresse du contrat déployé (à remplacer par votre adresse après déploiement)
-const CONTRACT_ADDRESS = "0x5b329bBe9b59b53eF2c06E1403178303b72280D8"; // Remplacez par votre adresse
+const CONTRACT_ADDRESS = "0x5b329bBe9b59b53eF2c06E1403178303b72280D8";
 
-// ABI du contrat CrashGame
+// ABI
 const CONTRACT_ABI = [
     "function startGame() public payable returns (uint256)",
     "function withdrawFromGame(uint256 gameId) public returns (uint256)",
